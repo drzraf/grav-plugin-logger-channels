@@ -7,15 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
-    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
-    'Psr\\Http\\Client\\' => array($vendorDir . '/psr/http-client/src'),
     'ParagonIE\\ConstantTime\\' => array($vendorDir . '/paragonie/constant_time_encoding/src'),
-    'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
-    'Mero\\Monolog\\' => array($vendorDir . '/mero/telegram-handler/src/Mero/Monolog'),
-    'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
-    'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
-    'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Grav\\Plugin\\LoggerChannels\\' => array($baseDir . '/classes'),
     'Gelf\\' => array($vendorDir . '/graylog2/gelf-php/src/Gelf'),
-    'DiscordHandler\\' => array($vendorDir . '/lefuturiste/monolog-discord-handler/src'),
 );
